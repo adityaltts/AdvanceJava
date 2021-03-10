@@ -1,4 +1,4 @@
-package com.ltts.demoweb2.controller;
+package com.ltts.controller;
 
 import java.io.IOException;
 import java.sql.Date;
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ltts.demoweb2.dao.PlayerDao;
-import com.ltts.demoweb2.model.Player;
+import com.ltts.dao.PlayerDao;
+import com.ltts.model.Player;
 
 /**
  * Servlet implementation class InsertPlayerServlet

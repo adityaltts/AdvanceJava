@@ -1,4 +1,4 @@
-package com.ltts.demoweb2.dao;
+package com.ltts.dao;
 
 
 import java.sql.Date;
@@ -8,8 +8,8 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ltts.demoweb2.configure.MyConnection;
-import com.ltts.demoweb2.model.Player;
+import com.ltts.configure.MyConnection;
+import com.ltts.model.Player;
 
 public class PlayerDao {
 	public List<Player> getAllPlayers()

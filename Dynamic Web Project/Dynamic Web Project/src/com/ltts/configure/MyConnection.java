@@ -1,4 +1,4 @@
-package com.ltts.demoweb2.configure;
+package com.ltts.configure;
 
 import java.io.FileReader;
 import java.io.InputStream;

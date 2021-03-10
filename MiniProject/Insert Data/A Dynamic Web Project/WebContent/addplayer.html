@@ -1,0 +1,114 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+      
+
+<style>
+.f{
+background-color: lightskyblue;
+border: 2px solid;
+box-shadow: 5px 10px 5px #888888;
+text-align: center;
+padding: 20px;
+margin: 20px 10px 20px 10px;
+}
+.he{
+	background-color: lightskyblue;
+border: 2px solid;
+box-shadow: 5px 10px 5px #888888;
+text-align: center;
+padding: 20px;
+margin: 20px 10px 20px 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class = "header">
+<h1 class="he">Player Details</h1>
+</div>
+ <form action="./InsertPlayerServlet" method="post">
+ 	<div class = "f">
+	<table class="table table-borderless">
+		<tr> <td>&nbsp;</td> </tr>
+		
+		<tr>
+		<td><i>Player Id:<superscript style="color: red;">*</superscript></i></td>
+		<td><input type="number" name="pno" placeholder="Enter the ID" autofocus><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+		
+		<tr>
+		<td><i>Player Name<superscript style="color: red;">*</superscript></i></td>
+		<td><input type="text" id="pname" name="pname" placeholder="Enter the name"><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+		
+		<tr>
+		<td><i>DOB<superscript style="color: red;">*</superscript></i></td>
+		<td><input type="text" id="date" name="date" placeholder = "DD/MM/YYYY" style="width: 200px;"><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+
+
+		<tr>
+		<td ><i>Country<superscript style="color: red;">*</superscript></i></td>
+		<td><select name="Nationality" id="Nationality" style="width: 205px;height: 22px;">
+				<option value="India">India</option>
+				<option value="USA">USA</option>
+				<option value="Germany">Germany</option>
+				<option value="France">France</option>
+				<option value="Japan">Japan</option>
+				<option value="Taiwan">Taiwan</option>
+				<option value="Korea">Korea</option>
+			</select><br>
+        </td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+
+		<tr>
+		<td><i>Skill<superscript style="color: red;">*</superscript></i></td>
+		<td><input type="checkbox" id="Batting" name="skills" value="Batting">Batting
+			<input type="checkbox" id="Bowling" name="skills" value="Bowling">Bowling
+			<input type="checkbox" id="all rounder" name="skills" value="All Rounder">All Rounder
+		</td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+
+		<tr>
+			<td><i>Runs<superscript style="color: red;">*</superscript></i></td>
+			<td><input type="text" id="runs" name="runs" placeholder = "Total Runs Scored" style="width: 200px;"><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+		
+		<tr>
+			<td><i>Wickets<i><superscript style="color: red;">*</superscript></i></td>
+			<td><input type="text" id="wickets" name="wickets" placeholder = "Wickets" style="width: 200px;"><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+		
+		<tr>
+			<td ><i>Matches<superscript style="color: red;">*</superscript></i></td>
+			<td><input type="text" id="Matches" name="Matches" placeholder = "matches Played" style="width: 200px;"><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+		<tr>
+			<td ><i>Team ID :<superscript style="color: red;">*</superscript></i></td>
+			<td><input type="number" id="teamid" name="teamid" placeholder = "teamid" style="width: 200px;"><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+		
+		<tr>
+			<td><input type="submit" value="Add Player"><br></td>
+		</tr>
+		<tr> <td>&nbsp;</td> </tr>
+
+	</table>
+  </form>
+</div>
+</body>
+</html>
